@@ -52,6 +52,7 @@ class Hangman:
         for two things. If it is a single letter
         and it hasn't already been guessed
         '''
+        user_input = user_input.lower()
         if (len(user_input) == 1 and user_input.isalpha() and user_input not in self.list_of_guesses):
             print("Good Guess!")
             self.list_of_guesses.append(user_input)
