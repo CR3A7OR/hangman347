@@ -15,13 +15,15 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 1. Insert a letter each time guessing for the correct word.
 2. Each incorrect answer will lead to a loss of a life till either the man is hanged or the game ends
 3. Only single letter inputs 
+4. You have 5 lives by default but you can adjust this in main function
 
 ## File Structure
 ```
 .
 ├── hangman
 │   ├── hangman_Template.py
-│   └── milestone_2.py
+│   ├── milestone_2.py
+│   └── milestone_4.py
 └── README.md
 ```
 

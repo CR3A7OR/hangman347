@@ -17,6 +17,7 @@ def check_guess(user_input,word):
     else:
         print(f"Sorry, {user_input} is not in the word. Try again.")
 
+
 def main():
     word_list = ['oranges', 'banana', 'apple', 'pear', 'peach']
     word = random.choice(word_list)
