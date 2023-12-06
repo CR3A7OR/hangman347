@@ -11,6 +11,7 @@ def validate_input(user_input):
 
 
 def check_guess(user_input,word):
+    user_input = user_input.lower() 
     if user_input in word:
         print(f"Good guess! {user_input} is in the word")
     else:

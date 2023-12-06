@@ -13,8 +13,8 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 # Operating
 
 1. Insert a letter each time guessing for the correct word.
-2. Each oincorrect answer will lead to a loss of a life till either the man is hanged or the game ends
-
+2. Each incorrect answer will lead to a loss of a life till either the man is hanged or the game ends
+3. Only single letter inputs 
 
 ## File Structure
 ```
